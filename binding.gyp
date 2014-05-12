@@ -1,8 +1,8 @@
 {
   "targets": [
     {
-      "target_name": "customSnapShot",
-      "sources": [ "src/customSnapShot.cc" ]
+      "target_name": "loadCustomSnap",
+      "sources": [ "src/loadCustomSnap.cc" ],
     }
   ]
 }

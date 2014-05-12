@@ -1,4 +1,3 @@
-var customSnap = require('../build/Release/takeCustomSnap.node');
 
 function A(){
         var x = Math.random();
@@ -9,7 +8,8 @@ function A(){
 }
 
 var Y = A();
-var Z = A();
+var Z = A;
 
 
-customSnap.takeCustomSnap(Y);
+console.log(Y);
+console.log(Z());
